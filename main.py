@@ -1,4 +1,3 @@
-import time
 import os
 import shutil
 
@@ -42,8 +41,7 @@ def run():
             pass
         except Exception as ex:
             print("Couldn't remove " + folder + " : " + str(ex))
-    print("Your available tracing files have been deleted. This script will now close in 7 seconds, or you can close it yourself.")
-    time.sleep(7)
+    print("Your available tracing files have been deleted.")
 if __name__ == "__main__":
     try:
         run()
