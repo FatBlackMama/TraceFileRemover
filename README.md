@@ -1,0 +1,2 @@
+# TraceFileRemover
+Removes tracing files. 
